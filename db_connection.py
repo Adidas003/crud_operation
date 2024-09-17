@@ -1,4 +1,4 @@
-import psycopg2
+erimport psycopg2
 from psycopg2 import OperationalError
 
 
@@ -8,7 +8,7 @@ def get_connection():
         db_connection = psycopg2.connect(
             host="localhost",
             user="postgres",
-            password="adi123",
+            password="enter your password here ",
             database="student"
         )
         if db_connection:
