@@ -8,7 +8,7 @@ def get_connection():
         db_connection = psycopg2.connect(
             host="localhost",
             user="postgres",
-            password="use_your_postgresql_password", #put your password here
+            password="adi123",
             database="student"
         )
         if db_connection:
